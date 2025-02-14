@@ -18,6 +18,13 @@ const Projects = () => {
       demoLink: "#",
       githubLink: "#",
     },
+    {
+      title: "Payzen",
+      description: "A seamless payment processing app designed for secure and fast transactions.",
+      techStack: ["React.js", "Next.js", "Tailwind CSS", "Stripe API"],
+      demoLink: "#",
+      githubLink: "#",
+    },
   ];
 
   return (
@@ -26,7 +33,7 @@ const Projects = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
           Featured Projects
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {projects.map((project) => (
             <div key={project.title} className="bg-card dark:bg-dark-bg p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
               <h3 className="text-2xl font-semibold mb-3">{project.title}</h3>
