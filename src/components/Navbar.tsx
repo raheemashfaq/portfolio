@@ -97,7 +97,7 @@ const Navbar = () => {
                 variant="outline"
                 size="sm"
                 className="w-full"
-                onClick={() => window.open("/resume.pdf", "_blank")}
+                onClick={() => window.open("https://drive.google.com/file/d/14dJV7xg4Eg411VwHvYoblYZap0HUEjbt/view?usp=drive_link", "_blank")}
               >
                 Resume
               </Button>
