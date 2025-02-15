@@ -6,26 +6,26 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       label: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com",
+      value: "muhammadabdulraheem000",
+      href: "mailto:muhammadabdulraheem000@gmail.com",
     },
     {
       icon: <Linkedin className="h-6 w-6" />,
       label: "LinkedIn",
-      value: "linkedin.com/in/yourusername",
-      href: "https://linkedin.com/in/yourusername",
+      value: "linkedin.com/in/abdulraheem",
+      href: "https://www.linkedin.com/in/abdulraheemishafaq/",
     },
     {
       icon: <Github className="h-6 w-6" />,
       label: "GitHub",
-      value: "github.com/yourusername",
-      href: "https://github.com/yourusername",
+      value: "github.com/raheemishfaq",
+      href: "https://github.com/raheemashfaq",
     },
   ];
 
   return (
-    <section id="contact" className="py-20 bg-muted/50">
-      <div className="container mx-auto px-4">
+    <section id="contact" className="py-20 bg-muted/50 ">
+      <div className="container mx-auto px-4 ">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           Get in Touch
         </h2>

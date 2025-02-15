@@ -5,25 +5,29 @@ import { Button } from "@/components/ui/button";
 const Projects = () => {
   const projects = [
     {
+      image:"/public/ecommeerce.jpeg",
       title: "E-Commerce Store",
       description: "A fully responsive online store with product filtering, cart management, and checkout features.",
       techStack: ["React.js", "Redux", "Tailwind CSS", "Firebase"],
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://raheemcommerce.vercel.app/",
+      githubLink: "https://github.com/raheemashfaq/e-commerce",
     },
     {
+      image:"/public/food.jpeg",
       title: "Food Delivery App",
+
       description: "A user-friendly food ordering platform with real-time order tracking.",
       techStack: ["React.js", "MUI", "Node.js", "Express.js"],
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://raheemfoods.vercel.app/",
+      githubLink: "https://github.com/raheemashfaq/food-delivery-platform",
     },
     {
+      image:"/public/image copy.png",
       title: "Payzen",
       description: "A seamless payment processing app designed for secure and fast transactions.",
-      techStack: ["React.js", "Next.js", "Tailwind CSS", "Stripe API"],
-      demoLink: "#",
-      githubLink: "#",
+      techStack: ["React.js", "Next.js", "MUI"],
+      demoLink: "https://raheempayzen.vercel.app/",
+      githubLink: "https://github.com/raheemashfaq/payzen",
     },
   ];
 
@@ -36,6 +40,7 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {projects.map((project) => (
             <div key={project.title} className="bg-card dark:bg-dark-bg p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+              <img src={project.image} alt="" />
               <h3 className="text-2xl font-semibold mb-3">{project.title}</h3>
               <p className="text-foreground/80 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-6">

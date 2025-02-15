@@ -45,7 +45,7 @@ const Hero = () => {
               variant="outline"
               size="lg"
               onClick={() => scrollToSection("contact")}
-              className="w-full sm:w-auto"
+              className="w-full sm:w-auto text-black   dark:text-white"
             >
               Hire Me
             </Button>
@@ -53,7 +53,7 @@ const Hero = () => {
 
           <div className="flex items-center justify-center gap-6 pt-8">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/raheemashfaq"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/80 hover:text-white transition-colors"
@@ -61,7 +61,7 @@ const Hero = () => {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/abdulraheemishafaq/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/80 hover:text-white transition-colors"
@@ -69,7 +69,7 @@ const Hero = () => {
               <Linkedin className="h-6 w-6" />
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:muhammadabdulraheem000@gmail.com"
               className="text-white/80 hover:text-white transition-colors"
             >
               <Mail className="h-6 w-6" />
