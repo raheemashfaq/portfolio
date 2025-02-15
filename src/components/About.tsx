@@ -11,7 +11,7 @@ const About = () => {
         <div className="w-full md:w-1/2 flex justify-center">
           <img
             className="w-60 h-60 md:w-72 md:h-72 rounded-full object-cover shadow-lg"
-            src="/public/IMG-20240226-WA0032.jpg"
+            src="/IMG-20240226-WA0032.jpg"
             alt="Abdul Raheem"
           />
         </div>

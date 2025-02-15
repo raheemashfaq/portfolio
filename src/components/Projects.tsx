@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const Projects = () => {
   const projects = [
     {
-      image:"/public/ecommeerce.jpeg",
+      image:"/ecommeerce.jpeg",
       title: "E-Commerce Store",
       description: "A fully responsive online store with product filtering, cart management, and checkout features.",
       techStack: ["React.js", "Redux", "Tailwind CSS", "Firebase"],
@@ -13,7 +13,7 @@ const Projects = () => {
       githubLink: "https://github.com/raheemashfaq/e-commerce",
     },
     {
-      image:"/public/food.jpeg",
+      image:"/food.jpeg",
       title: "Food Delivery App",
 
       description: "A user-friendly food ordering platform with real-time order tracking.",
@@ -22,7 +22,7 @@ const Projects = () => {
       githubLink: "https://github.com/raheemashfaq/food-delivery-platform",
     },
     {
-      image:"/public/image copy.png",
+      image:"/image copy.png",
       title: "Payzen",
       description: "A seamless payment processing app designed for secure and fast transactions.",
       techStack: ["React.js", "Next.js", "MUI"],
