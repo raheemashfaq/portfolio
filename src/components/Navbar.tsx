@@ -96,8 +96,8 @@ const Navbar = () => {
                 variant="outline"
                 size="sm"
                 className="w-full"
-                onClick={() => window.open("/01Abdulpro.pdf", "_blank")}
-              >
+                onClick={() => window.open("https://drive.google.com/file/d/your-file-id/view?usp=sharing", "_blank")}
+                >
                 Resume
               </Button>
               <Button
