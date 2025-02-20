@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Sun, Moon, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -33,12 +32,15 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-background/80 backdrop-blur-md shadow-sm" : "bg-transparent"
-        }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        isScrolled ? "bg-background/80 backdrop-blur-md shadow-sm" : "bg-transparent"
+      }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <a href="#" className="text-2xl font-bold text-secondary">Abdul Raheem</a>
+          <a href="#" className="text-2xl font-bold text-secondary">
+            Abdul Raheem
+          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
@@ -47,14 +49,16 @@ const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            <Button
-              variant="outline"
-              size="sm"
+            <a
+              href="/01Abdulpro.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="ml-4"
-              onClick={() => window.open("/public/01Abdulpro.pdf", "_blank")}
             >
-              Resume
-            </Button>
+              <Button variant="outline" size="sm">
+                Resume
+              </Button>
+            </a>
             <Button
               variant="ghost"
               size="icon"
@@ -92,14 +96,16 @@ const Navbar = () => {
               </a>
             ))}
             <div className="px-4 py-2 space-y-2">
-              <Button
-                variant="outline"
-                size="sm"
+              <a
+                href="/01Abdulpro.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full"
-                onClick={() => window.open("https://drive.google.com/file/d/1kb5YXBMpTMpcd0nh7rtuq_1p63vH0FML/view", "_blank")}
               >
-                Resume
-              </Button>
+                <Button variant="outline" size="sm" className="w-full">
+                  Resume
+                </Button>
+              </a>
               <Button
                 variant="ghost"
                 size="sm"
