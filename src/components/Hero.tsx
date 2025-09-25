@@ -27,7 +27,7 @@ const Hero = () => {
             Hi, I'm Abdul Raheem
           </h1>
           <p className="text-xl md:text-2xl font-light max-w-2xl mx-auto">
-            Frontend Developer | React Enthusiast | Problem Solver
+            Frontend Developer | React Enthusiast | MERN Developer | Problem Solver
           </p>
           <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto">
             I design and develop modern web applications with precision and creativity

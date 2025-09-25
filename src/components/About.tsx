@@ -11,7 +11,7 @@ const About = () => {
         <div className="w-full md:w-1/2 flex justify-center">
           <img
             className="w-60 h-60 md:w-72 md:h-72 rounded-full object-cover shadow-lg"
-            src="/IMG-20240226-WA0032.jpg"
+            src="/img.jpeg"
             alt="Abdul Raheem"
           />
         </div>
@@ -19,7 +19,10 @@ const About = () => {
         {/* Text Section */}
         <div className="w-full md:w-1/2 text-center md:text-left">
           <p className="text-lg text-foreground/80 leading-relaxed">
-            I am Abdul Raheem, a passionate Frontend Developer specializing in React.js. I have experience in building modern, responsive, and user-friendly web applications. My expertise includes React.js, JavaScript, Tailwind CSS, MUI, and Git. I love solving complex problems and continuously learning new technologies to enhance my skills.
+         I’m Abdul Raheem, a passionate Frontend Developer and MERN Stack enthusiast.
+I craft modern, responsive, and user-friendly web applications with React.js.
+With skills in JavaScript, Tailwind CSS, MUI, Node.js, Express, and MongoDB,
+I love solving complex problems and turning ideas into impactful digital solutions.
           </p>
         </div>
       </div>

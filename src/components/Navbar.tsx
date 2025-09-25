@@ -50,7 +50,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="/01Abdulpro.pdf"
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="ml-4"
@@ -97,7 +97,7 @@ const Navbar = () => {
             ))}
             <div className="px-4 py-2 space-y-2">
               <a
-                href="/01Abdulpro.pdf"
+                href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full"

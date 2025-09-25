@@ -8,10 +8,16 @@ const Skills = () => {
       icon: <Code2 className="h-6 w-6" />,
       skills: ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Redux Toolkit", "Next.js"],
     },
+
     {
       title: "UI Libraries",
       icon: <Palette className="h-6 w-6" />,
       skills: ["MUI", "Tailwind CSS", "Bootstrap"],
+    },
+        {
+      title: "Backend & Database",
+      icon: <Code2 className="h-6 w-6" />,
+      skills: ["Node.js", "Express", "MongoDB", "REST APIs", "GraphQL"],
     },
     {
       title: "Tools & Version Control",

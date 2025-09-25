@@ -18,8 +18,8 @@ const Projects = () => {
 
       description: "A user-friendly food ordering platform with real-time order tracking.",
       techStack: ["React.js", "MUI", "Node.js", "Express.js"],
-      demoLink: "https://raheemfoods.vercel.app/",
-      githubLink: "https://github.com/raheemashfaq/food-delivery-platform",
+      demoLink: "https://food-del-frontend-vybk.onrender.com",
+      githubLink: "https://github.com/raheemashfaq/food_del_fyp.git",
     },
     {
       image:"/image copy.png",
