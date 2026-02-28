@@ -29,6 +29,14 @@ const Projects = () => {
       demoLink: "https://raheempayzen.vercel.app/",
       githubLink: "https://github.com/raheemashfaq/payzen",
     },
+{
+  image: "/product.png",
+  title: "Petsin",
+  description: "A complete pet care platform for Pakistan — featuring expert articles, vet listings, pet products, and a community for pet lovers.",
+  techStack: ["Next.js", "Supabase", "Tailwind CSS"],
+  demoLink: "https://staging.petsin.pk/",
+  githubLink: "https://github.com/raheemashfaq/petsin",
+}
   ];
 
   return (
