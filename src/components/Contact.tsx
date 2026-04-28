@@ -7,7 +7,7 @@ const Contact = () => {
       icon: <Mail className="h-6 w-6" />,
       label: "Email",
       value: "muhammadabdulraheem000",
-      href: "mailto:muhammadabdulraheem000@gmail.com",
+      href: "mailto:iraheemishfaq@gmail.com",
     },
     {
       icon: <Linkedin className="h-6 w-6" />,
